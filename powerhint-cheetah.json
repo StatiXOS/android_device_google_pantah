@@ -150,7 +150,8 @@
       "Path": "/proc/vendor_sched/util_threshold",
       "Values": [
         "1280",
-        "1100"
+        "1100",
+        "3658 3658 3658 3658 1078 1078 1024 1024"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -652,6 +653,12 @@
       "Node": "CDMidHighCpusetCpus",
       "Duration": 1000,
       "Value": "0-3"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPUUtilThreshold",
+      "Duration": 0,
+      "Value": "3658 3658 3658 3658 1078 1078 1024 1024"
     },
     {
       "PowerHint": "LAUNCH",
